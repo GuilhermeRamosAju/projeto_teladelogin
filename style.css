@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+body{
+    background-color: #ED751C;
+    background-image: url(imagens/logo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-attachment: fixed;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bloco{
+    background-color: #FCFBFD;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
+    position: relative;
+    width: 55%;
+    height: 95vh;
+    border-radius: 30px;
+}
+
+#login{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    top: 30vh;
+    left: 15vw;
+}
+
+h1{
+    font-size: 2.6em;
+    padding: 10px;
+    text-align: center;
+}
+
+p{
+    padding: 10px 10px 5px 0px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+#mailtxt, #senhatxt{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 25px;
+    border-radius: 7px;
+    border-color: #999292;
+    box-shadow: none;
+    
+    
+}
+
+#botao{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 400px;
+    height: 35px;
+    color: white;
+    background-color: #ED751C;
+    border: #ED751C;
+    border-radius: 20px;
+    font-size: 1.3em;
+
+}
+a{
+   display: flex;
+   text-decoration: none;
+   justify-content: flex-end;
+   margin-bottom: 10px;
+}
+
+
+    
