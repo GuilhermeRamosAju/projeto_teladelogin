@@ -7,8 +7,10 @@ body{
     background-color: #ED751C;
     background-image: url(imagens/logo.jpeg);
     background-repeat: no-repeat;
-    background-position: center right;
-    background-attachment: fixed;
+    background-position: bottom 30px right 100px;
+    background-attachment:fixed;
+    background-size: 40%;
+    
 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -19,22 +21,24 @@ body{
     margin-top: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
     position: relative;
-    width: 55%;
+    width: 40%;
     height: 95vh;
     border-radius: 30px;
+    min-width: 400px;
 }
 
 #login{
     position: absolute;
     width: 400px;
     height: 600px;
-    top: 30vh;
-    left: 15vw;
+    top: 27vh;
+    left: 8vw;
 }
 
 h1{
     font-size: 2.6em;
     padding: 10px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -45,12 +49,14 @@ p{
 }
 
 #mailtxt, #senhatxt{
-    width: 400px;
+    min-width: 400px;
     height: 30px;
     margin-bottom: 25px;
     border-radius: 7px;
     border-color: #999292;
     box-shadow: none;
+    font-size: 1.1em;
+    padding: 2px;
     
     
 }
@@ -67,12 +73,22 @@ p{
     font-size: 1.3em;
 
 }
-a{
+a#esqueceu{
    display: flex;
    text-decoration: none;
    justify-content: flex-end;
    margin-bottom: 10px;
+   color: black;
+   text-decoration: underline;
 }
 
+p > a {
+    justify-content: flex-start;
+    text-decoration: none;
+    color: #ED751C;
+}
 
+a:hover{
+    text-decoration: underline;
+}
     
